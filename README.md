@@ -1,3 +1,14 @@
+
+# Summary
+
+This Shopify extension serves as a valuable tool for customers by providing them with the capability to save their orders for future reference. The extension is integrated with a MySQL database, ensuring secure and organized storage of order details.
+
+To configure the extension, users are required to set up the backend base URL. This is a straightforward process that involves accessing the console and inserting the appropriate URL into the BKND_URL variable found in the Checkout.jsx file.
+
+
+
+
+
 # Shopify App Template - Node
 
 This is a template for building a [Shopify app](https://shopify.dev/docs/apps/getting-started) using Node and React. It contains the basics for building a Shopify app.

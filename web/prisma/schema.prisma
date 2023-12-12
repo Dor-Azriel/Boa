@@ -17,3 +17,16 @@ model Session {
   accessToken String
   userId      BigInt?
 }
+
+// schema.prisma
+model SavedOrder {
+  id     String   @id
+  items  Item[]   
+}
+
+model Item {
+  id       Int       @id @default(autoincrement())
+  value      String
+  savedOrder SavedOrder @relation(fields: [savedOrderId], references: [id])
+  savedOrderId String
+}

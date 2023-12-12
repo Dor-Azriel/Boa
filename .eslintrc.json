@@ -24,7 +24,8 @@
     "rules": {
         "indent": [
             "error",
-            "tab"
+            "tab",
+            "spaces",
         ],
         "quotes": [
             "error",

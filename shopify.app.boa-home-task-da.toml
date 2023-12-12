@@ -1,0 +1,28 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "boa-home-task-DA"
+client_id = "ef38892171b1823df0e723610e691901"
+application_url = "https://pleased-literacy-crash-valve.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = ""
+
+[auth]
+redirect_urls = [
+  "https://pleased-literacy-crash-valve.trycloudflare.com/auth/callback",
+  "https://pleased-literacy-crash-valve.trycloudflare.com/auth/shopify/callback",
+  "https://pleased-literacy-crash-valve.trycloudflare.com/api/auth/callback",
+  "https://pleased-literacy-crash-valve.trycloudflare.com/.shopify/graphiql/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "home-assignment-3.myshopify.com"
